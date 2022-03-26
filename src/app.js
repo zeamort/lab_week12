@@ -47,3 +47,12 @@ function calculateAverageGrade(student, num_of_grades) {
 }
 
 logScholarshipCandidates(students);
+
+
+//Part 4:
+function switchTheme() {
+    const theme = document.querySelector('.light-theme');
+    theme.classList.replace('light-theme', 'dark-theme');
+}
+
+switchTheme();
